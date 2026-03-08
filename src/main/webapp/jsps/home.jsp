@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>S2 Software training centre- Home Page</title>
-<link href="images/" rel="icon">
+<link rel="icon" href="${pageContext.request.contextPath}/images/mithunlogo.jpg">
 </head>
 </head>
 <body>
@@ -31,7 +31,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images.jpg" alt="" width="100">
+		<img src="${pageContext.request.contextPath}/images/mithunlogo.jpg" alt="logo" width="120">
 	</span>
 	<span style="font-weight: bold;">
 		s2, 
